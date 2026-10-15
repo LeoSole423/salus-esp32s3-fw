@@ -11,6 +11,8 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=${workspaceFolder}/build"
-  ]
+    "--compile-commands-dir=${workspaceFolder}/build/usb-v2"
+  ],
+  "idf.buildPath": "${workspaceFolder}/build/usb-v2",
+  "idf.sdkconfigFilePath": "${workspaceFolder}/build/usb-v2/sdkconfig"
 }

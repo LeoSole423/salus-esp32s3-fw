@@ -1,5 +1,5 @@
 {
-	"name": "ESP-IDF QEMU",
+	"name": "SALUS ESP-IDF 6.0.2",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-15",
+  "repositories": {
+    "classic": {
+      "commit": "037c1edfa13063dacd9e8458f9c6d40377a21dbf",
+      "files": {
+        "src/main.cpp": "df0652a7c8490c8e57c061107db71fa02808d44a552cc1225f3e066530ba6a75",
+        "src/quad_functions.cpp": "0941ffe655eed4fcde3abcc728b851225c78d637372f3a81eb397de3fd7d9996",
+        "src/pi_comms.cpp": "82ff9ee0a34d93914650141790a1d3de208a9b80724adf0626ad2096bca54889",
+        "src/pid.cpp": "9a3b93fc12ce1b3b7543f46b22c85a569535a8bdc0244792e67b80e215115fb8",
+        "src/fs_ia6.cpp": "fc940c1f08d6cf96666e93e13dd19b47e6b1c4cdcc33eef946d691eca18a1ba1",
+        "src/hall_speed.cpp": "1bc9a8688f804332e98db5e1dc03b910263347a175611a93ccdf573622a4e0b0",
+        "src/speed_pid.cpp": "1e11c2d8a051542ab56dcc9a881ba334cbc9e5884796da4b24fea282aebc2fdd",
+        "ESP32_UART_PROTOCOL.md": "f9a9bbe01825a75e17f3d47adea0591b4ac4e1cb6064b540da99927430794f7e"
+      }
+    },
+    "firmware": {
+      "commit": "7ca6aec8d8bef55bf3d48d5c1e94c07df4897b68",
+      "files": {
+        "sdkconfig.defaults": "26ec9ab63f86546e57398fb3007897a7441969603ce3a202af492647c38a4563",
+        "main/hello_world_main.c": "b2d1c8573307e010d276d2d0df537f1fe752416f8422e267aa8b1661c1744595",
+        "CMakeLists.txt": "bbf293f6dd4cf0bffaded7460adf79d64bb933683fda064da7db1ef032e0575b"
+      }
+    },
+    "ros": {
+      "commit": "5a4c3b7004eebe740abbd2ad5ac13e52aee15f78",
+      "files": {
+        "src/salus_control/salus_control/rpy_esp32_comms/protocol.py": "8413007a1c25d073fc386eb8b4ef90a0e7f63099fca797dea153facde8ecba08",
+        "src/salus_control/salus_control/serial_port_resolver.py": "b5dea11d10fe012acfce589ad3b2cd9af5498569bd039c9306e1dff8bbde7ee6",
+        "src/salus_localization/config/localization_local_real.yaml": "e78215d972c2fa1f04cee734cf54f1de09ac7057dca9f6210afda6ee6c27abd3",
+        "src/salus_hardware/salus_hardware/pixhawk_rtk_adapter.py": "31da6a7d21ffbf34f86707e892d5b0cceaa0426946ad6c0c46556d8d0a011ab3"
+      }
+    },
+    "pcb": {
+      "commit": "506cada98388cf5976daa77576c97da5ddecd994",
+      "files": {
+        "ESP32.kicad_sch": "e0f53e41ce6fcc0c2f8cda0c59f5298e191f6def38c4befcefbd577a3112cef2",
+        "PCB_SALUS_v3.kicad_pcb": "ebb9409d502039d84af8c5879dff1f6156496e601cd1c0e3d3ce403016643672",
+        "docs/reviews/2026-10-15/DECISIONES_Y_PENDIENTES.md": "784574d58313fd1994155a2a2a4b2ac998a618680134a03a6b1ffa1a29c66bad",
+        "docs/reviews/2026-10-15/CONECTORES.md": "44dbacc928167f433aabc55c87f8f9181b5d3f9e71e69bf2086ef93bf119ca5a",
+        "docs/reviews/2026-10-15/REVISION_COMPLETA.md": "22f9e67829c38ef43e7edd8feb6e9faf74235e435acd7abba385a2ce363f0bdb"
+      }
+    }
+  }
+}
